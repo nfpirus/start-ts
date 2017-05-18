@@ -1,0 +1,57 @@
+{
+    // Editor
+    "editor.formatOnSave": true,
+    "editor.rulers": [
+        120
+    ],
+    // Temporary disabled, because it replaces 'any'' with '{}'
+    // It would be great to specify, which fixes to run on save
+    // https://github.com/Microsoft/vscode-tslint/issues/152
+    "tslint.autoFixOnSave": false,
+    // HTML
+    "html.format.enable": false,
+    // Indent rainbow
+    "indentRainbow.error_color": "rgba(255,0,0,0.4)",
+    // TSLint
+    "tslint.configFile": "./tslint.json",
+    // Configuration section of the typescript hero extension
+    "typescriptHero.resolver.ignorePatterns": [
+        "typescript",
+        "tslint",
+        "node_modules/typings",
+        "node_modules/typings-core",
+        "dist"
+    ],
+    "typescriptHero.restartDebugger.watchFolders": [
+        "demo",
+        "dist"
+    ],
+    "typescriptHero.restartDebugger.active": true,
+    // TypeScript
+    "typescript.tsdk": "node_modules/typescript/lib",
+    "javascript.format.enable": false,
+    // Code Spell Checker Configuration
+    "cSpell.enabledLanguageIds": [
+        "typescript"
+    ],
+    "cSpell.ignorePaths": [
+        "node_modules",
+        "lib.d.ts"
+    ],
+    // Files
+    "files.exclude": {
+        ".tmp": true,
+        "**/.git": true,
+        "**/.DS_Store": true,
+        ".vs": true,
+        "node_modules": true,
+        "dist": true,
+        "packages": true,
+        "tools": true,
+        "bower_components": true,
+        "bower_components_changed": true,
+        "npm-shrinkwrap.json": true,
+        "*.DotSettings*": true,
+        "demo/out": true
+    }
+}

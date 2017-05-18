@@ -1,0 +1,70 @@
+{
+        "version": "0.1",
+        "language": "en",
+        "words": [
+                // Common words
+                "preloader",
+                "detalization",
+                "configurator",
+                "validators",
+                "extranet",
+                "grayscale",
+                "imperic", // Remove, what does this word mean???
+                // *able
+                "selectable",
+                "scrollable", // Remove ?
+                "followable", // Remove ?
+                "watchables", // Remove ?
+                "nestable", // Remove ?
+                // *d
+                "argumented", // Remove ?
+                "cutted", // Remove ?
+                "debounced", // Remove ?
+                "minified",
+                "inversed",
+                // Terms
+                "tlui",
+                "travelline",
+                "webpms",
+                "jsperf",
+                "yandex",
+                // Programming
+                "polyfill",
+                "truthy",
+                "cyclomatic",
+                "rectlinear",
+                "argb",
+                "DTOs",
+                "datetime", // Remove
+                "multiselect", // Remove
+                "noop",
+                // Angular
+                "transclude",
+                "transclusion",
+                "transcluded",
+                "ctrls",
+                // Fonts / SVG / HTML
+                "helvetica",
+                "arial",
+                "opensans",
+                "woff",
+                "gothik",
+                "fsbook",
+                "xlink",
+                "mdash",
+                "nbsp",
+                // TSLint
+                "forin",
+                // External libraries
+                "angularjs",
+                "momentjs",
+                "tinycolor",
+                // People names
+                "raphson",
+                // Other
+                "uinotifier" // Remove
+        ],
+        "flagWords": [
+                "str"
+        ]
+}

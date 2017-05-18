@@ -1,0 +1,9 @@
+*.suo
+*.user
+/.idea
+/.vs
+/.tmp
+/node_modules
+/.tscache
+/demo/demo.js
+/coverage
