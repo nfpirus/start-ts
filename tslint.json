@@ -71,7 +71,7 @@
         "no-consecutive-blank-lines": true,
         "no-construct": true,
         "no-constructor-vars": true,
-        "no-debugger": true,
+        "no-debugger": false,
         "no-duplicate-key": true,
         "no-duplicate-variable": true,
         "no-shadowed-variable": true,

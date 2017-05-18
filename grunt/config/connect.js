@@ -3,10 +3,10 @@ module.exports = function(grunt, demoTsOptions) {
 	server: {
 		options: {
 			hostname: '*',
-			port: 80,
+			port: 8080,
 			base: '',
 			livereload: 35729,
-			open: 'http://localhost/demo/'
+			open: 'http://localhost:8080/demo/'
 		}
 	}
   }
